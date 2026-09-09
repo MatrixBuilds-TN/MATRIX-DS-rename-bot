@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 
 API_ID = 35554225
 API_HASH = "638334a4943ae8ee4eccac9b23f037ec"
-BOT_TOKEN = "8755509692:AAHKS3sPPLURVZ8dnqd1rUMAPQ8H1gLdQkQ"
+BOT_TOKEN = "8755509692:AAE3jn6_WsSkag39in9dZ42i4Pw_9Wzq8ok"
 
 app = Client("matrix_rename_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
@@ -221,4 +221,4 @@ async def start_processing(client, chat_id, status_msg):
 
 print("பாட் இயங்குகிறது...")
 app.run()
-
+    
